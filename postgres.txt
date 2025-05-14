@@ -1,0 +1,15 @@
+con <- dbConnect(drv, #Nome da instancia criada anteriormente
+                 dbname = "dataSusBrasil", #nome do database a ser acessado
+                 host = "localhost", #IP do server que hospeda o database
+                 port = 5432, #porta de entrada do server
+                 user = "postgres", #nome do usuario
+                 password =  "884101") # senha concedida ao usuario apontado
+
+
+alter user postgres with encrypted password '884101';
+
+grant all privileges on database dataSusBrasil to postgres;
+
+pg_restore -h localhost -p 5432 -U postgres -d dataSusBrasil -v  "backup_1996-2019_End.backup"
+
+

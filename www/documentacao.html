@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<h1>Documentação do MorbIS</h1>
+
+
+<h2>Comparações</h2>
+
+<p align="justify">
+Na aba comparações, o usuário dispõe de um painel para filtrar as informações desejadas. São retornados para ele um gráfico de linha mostrando a evolução temporal no número de óbitos de todas as pessoas nos anos de 1996 a 2019, além de tabelas mostrando o número de óbitos totais das pessoas do nordeste por gênero, raça e idade em relação à região, unidade federativa ou município. Caso o usuário deseje, ele pode tirar suas dúvidas em relação à usabilidade do painel com o botão ajuda.
+</p>
+
+<p align="justify">
+No gráfico, mostra o número de pessoas que foram a óbito na região ou unidade federativa ou município selecionado, desde a primeira observação registrada (1996), até a última (2020). As informações podem ser filtradas por gênero, raça, idade e morbidade.
+</p>
+
+<p align="justify">
+Nas tabelas, podemos ver os dados das pesquisas feitas no painel. Essa pesquisa feita é a mesma mostrada no gráfico de linha,
+mas de maneira completa. As tabelas são separadas em 3 tipos, que são os cruzamentos das variáveis raça, idade e gênero. É importante observar que as tabelas são baseadas nas comparações entre raça, idade e gênero. Portanto, elas são estáticas apenas quando o usuário muda a variável “Comparações”. Em todos os outros casos, a tabela varia conforme as pesquisas efetuadas no painel.
+</p>
+
+
+<h2>Dados</h2>
+
+<p align="justify">
+Na aba dados, é possível baixar os resultados da pesquisa realizada pelo usuário na aba anterior (Comparações). Também é possível baixar as informações no botão ao lado de ajuda, na aba “Comparações”. As informações baixadas pelo botão são os dados utilizados para a construção dos gráficos exibidos. Com estes dados, o usuário do MorbIS possui diversas opções de trabalhos que pode realizar independentemente do painel.
+</p>
+
+<p align="justify">
+Ele pode, por exemplo, recriar o gráfico em seu próprio computador, para ilustrar com sua paleta de cores preferida as pesquisas que realizou no assunto de seu interesse. Ou, caso seu objetivo seja modelagem, o usuário pode baixar os dados representados nos gráficos para ajustar modelos estatísticos ao seu objeto de pesquisa. Este botão disponibiliza as informações filtradas pelo painel em um arquivo csv que pode ser lido em qualquer programa de análise de dados, não necessariamente o R
+</p>
+
+
+<h2>Documentação</h2>
+
+<p align="justify">
+Aborda informações sobre o MorbIS.
+</p>
+
+
+<h2>Atalhos</h2>
+
+<p align="justify">
+Dispõe de informações sobre atalhos disponíveis nos gráficos na aba "Comparações".
+</p>
+
+
+
+<h2>Sobre</h2>
+
+<p align="justify">
+Na aba sobre, exibe demais informações sobre o trabalho, dividida em duas partes. O projeto, seus objetivos e qual o propósito dele. Os pesquisadores envolvidos no projeto do MorbIS. Os pesquisadores são:</p>
+
+<ul>
+
+<li><strong>Beatriz Stransky Ferreira:</strong> Professora do Departamento de Engenharia Biomédica da UFRN, foi quem teve a ideia original da aplicação, discutindo com os demais a respeito dos dados a serem utilizados e qual seria o rumo principal da aplicação, afim de melhorar sua usabilidade.</li>
+
+<li><strong>Marcus Alexandre Nunes:</strong>  Professor do Departamento de Estatística da UFRN, que iniciou a criação do MorbIS e orientou a sua expansão, além de ter participado das discussões para criação da ferramenta. Também é o responsável pela configuração do servidor onde a aplicação está hospedada.
+
+<li><strong>Bruno Cardoso Dantas:</strong>  Doutorando em Engenharia Elétrica da UFCG e graduado em sistemas de informação, fez a extração e o tratamento dos dados. Foi dele a ideia de salvar os dados em um banco de dados PostgreSQL. Devido a isso, foi o responsável pelo projeto, criação e atualização do banco de dados.
+
+<li><strong>Alessandro Pereira Torres De Sá Neto:</strong>  Graduando em Estatística da UFRN, criador da aplicação em Shiny em sua versão atual. Responsável pela expansão e manutenção do código-fonte do MorbIS. É planejador da interface do MorbIS, decidindo sobre as melhores formas de interação entre o usuário e a ferramenta.
+
+</ul>
+
+
+
+
+
+
+</html>

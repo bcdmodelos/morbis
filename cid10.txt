@@ -1,0 +1,14 @@
+* Mapa está sem funcionar? Qual é o objetivo dele?git
+
+* Aba comparações:
+
+  * Regiões: achei que apareceria o resultado agrupado por região
+  * Estados: achei que apareceria o resultado agrupado por estado
+  * Cidades: achei que apareceria o resultado de cada cidade
+
+* Colocar font awesome no links das redes sociais
+
+
+
+
+

@@ -1,0 +1,40 @@
+# 2020-09-04
+
+- atualizar a procura de morbidade, adicionando '*' e 'X' onde necessário
+
+- atualizar o site com os menus do topo
+
+- bijeção entre código linhaa e coluna causabas
+
+- implementar o bootstrap no ui.R
+
+
+# 2020-09-18
+
+- colocar a capital do estado como primeira opção ao selecionar o estado
+
+- implementar duas abas para escolher comparações entre cidades ou estados
+
+- gênero, raça e idade no painel lateral
+
+
+
+# 2020-09-25
+
+- ajustar o caminho das imagens dos membros
+
+- definir variáveis utilizadas nos bancos principal (todas as obrigatórias + outras que considerarmos importantes), secundário e terciário (focar nos campos obrigatórios)
+
+
+
+# 2020-10-02
+
+- definir as variáveis que não usaremos de jeito nenhum
+
+- definir variáveis utilizadas nos bancos principal (todas as obrigatórias + outras que considerarmos importantes), secundário e terciário (focar nos campos obrigatórios)
+
+
+# 2020-10-09
+
+- entregar o projeto de banco de dados
+

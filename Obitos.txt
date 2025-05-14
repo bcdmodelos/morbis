@@ -1,0 +1,28 @@
+UF,Obitos,N,Nome
+MS,114675,50,Mato Grosso do Sul
+MT,111148,51,Mato Grosso
+GO,241410,52,Goiás
+DF,87833,53,Distrito Federal
+MA,179457,21,Maranhão
+PI,108659,22,Piauí
+CE,351321,23,Ceará
+RN,130592,24,Rio Grande do Norte
+PB,184246,25,Paraíba
+PE,511657,26,Pernambuco
+AL,150032,27,Alagoas
+SE,91722,28,Sergipe
+BA,588855,29,Bahia
+RO,55862,11,Rondônia
+AC,24488,12,Acre
+AM,98126,13,Amazonas
+RR,12137,14,Roraima
+PA,222049,15,Pará
+AP,17645,16,Amapá
+TO,40993,17,Tocantins
+MG,996518,31,Minas Gerais
+ES,174064,32,Espírito Santo
+RJ,971075,33,Rio de Janeiro
+SP,2346690,35,São Paulo
+PR,561027,41,Paraná
+SC,285227,42,Santa Catarina
+RS,687375,43,Rio Grande do Sul
